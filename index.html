@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angeline Ostan | Portfolio</title>
+
+    <!-- Tailwind v4 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Devicon CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+        body,
+        #navigation-links,
+        #Hero-text p,
+        .courier {
+            font-family: 'Courier Prime', monospace;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        #myname,
+        .archivo {
+            font-family: 'Archivo', sans-serif;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="bg-white text-gray-800 antialiased">
+
+    <!-- Navigation -->
+    <header class="w-full fixed top-0 bg-white z-[100] border-b border-gray-100">
+        <nav class="py-4">
+            <div class="mx-auto flex max-w-screen-xl items-center justify-between px-4">
+                <!-- Logo - stays on top -->
+                <a href="index.html" class="text-2xl font-bold text-amber-600 archivo z-[200]">
+                    [A.]
+                </a>
+
+                <!-- Desktop Links -->
+                <div class="hidden md:block">
+                    <ul class="flex flex-row space-x-8 items-center text-base">
+                        <li><a href="index.html#about" class="hover:text-amber-600 transition">About</a></li>
+                        <li><a href="index.html#education" class="hover:text-amber-600 transition">Education</a></li>
+                        <li><a href="index.html#tech-stack" class="hover:text-amber-600 transition">Stack</a></li>
+                        <li><a href="index.html#projects" class="hover:text-amber-600 transition">Projects</a></li>
+                        <li><a href="index.html#contact" class="hover:text-amber-600 transition">Contact</a></li>
+                        <li>
+                            <a href="../Ostan_Resume_MULAVESTUDIOS.pdf" target="_blank"
+                                class="border-2 px-4 py-2 border-amber-500 rounded-sm hover:bg-amber-500 hover:text-white transition font-bold">
+                                Resume
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Hamburger Button - stays on top -->
+                <button id="menu-btn" class="block md:hidden z-[200] text-amber-600 focus:outline-none">
+                    <svg id="hamburger-icon" xmlns="http://www.w3.org/2000/svg" class="h-9 w-9" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+                    <svg id="close-icon" xmlns="http://www.w3.org/2000/svg" class="h-9 w-9 hidden" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Full-Screen Mobile Menu Overlay -->
+        <!-- Added: h-screen, top-0, left-0, bg-white (solid) -->
+        <div id="mobile-menu"
+            class="fixed top-0 left-0 w-full h-screen bg-white translate-x-full transition-transform duration-500 ease-in-out z-[150] flex flex-col justify-center items-center md:hidden">
+            <ul class="flex flex-col space-y-10 items-center text-3xl archivo uppercase tracking-[0.2em] text-center">
+                <li><a href="index.html#about" class="mobile-link hover:text-amber-600 transition">About</a></li>
+                <li><a href="index.html#education" class="mobile-link hover:text-amber-600 transition">Education</a>
+                </li>
+                <li><a href="index.html#tech-stack" class="mobile-link hover:text-amber-600 transition">Stack</a></li>
+                <li><a href="index.html#projects" class="mobile-link hover:text-amber-600 transition">Projects</a></li>
+                <li><a href="index.html#contact" class="mobile-link hover:text-amber-600 transition">Contact</a></li>
+                <li class="pt-6">
+                    <a href="../Ostan_Resume_MULAVESTUDIOS.pdf" target="_blank"
+                        class="border-2 px-10 py-4 border-amber-500 rounded-sm text-amber-600 hover:bg-amber-500 hover:text-white transition font-bold">
+                        Resume
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+    <main class="mx-auto max-w-screen-xl px-4">
+
+        <!-- 00. Hero Section -->
+        <!-- Merged Hero & About Section -->
+        <section id="about" class="min-h-screen flex flex-col justify-center py-20">
+            <div class="grid md:grid-cols-5 gap-12 items-center">
+
+                <!-- Left Side: Content (Spans 3 columns) -->
+                <div class="md:col-span-3 space-y-6">
+                    <div>
+                        <p class="text-amber-600 text-xl mb-3 courier">Hi, my name is</p>
+                        <h1 class="text-6xl text-slate-900 archivo leading-tight">
+                            Angeline Ostan.
+                        </h1>
+
+                    </div>
+
+                    <div class="text-gray-600 space-y-4 text-lg courier max-w-2xl">
+                        <p>
+                            I am a 4th-year IT Student at St. Anthony's College. As an aspiring
+                            <span class="text-amber-600 font-bold">Web Developer</span>,
+                            I bridge the gap between intuitive frontend design and robust backend logic.
+                        </p>
+                        <p>
+                            I enjoy creating seamless, end-to-end digital experiences that intersect
+                            design and logic to solve real-world problems. I am currently looking for
+                            opportunities to apply my skills in <span class="text-amber-600 font-bold">Web Systems.
+                        </p>
+
+                    </div>
+
+                    <div class="pt-8">
+                        <a href="#projects"
+                            class="border-2 border-amber-500 px-10 py-4 rounded-sm text-amber-600 font-bold hover:bg-amber-500 hover:text-white transition inline-block archivo uppercase tracking-widest">
+                            View My Work
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Side: Image (Spans 2 columns) -->
+                <div class="md:col-span-2 flex justify-center md:justify-end">
+                    <div class="relative group max-w-sm w-full">
+                        <!-- Decorative Frame -->
+                        <div
+                            class="absolute inset-0 border-2 border-amber-500 rounded translate-x-5 translate-y-5 group-hover:translate-x-3 group-hover:translate-y-3 transition-all duration-300">
+                        </div>
+                        <!-- Image Container -->
+                        <div class="relative bg-amber-100 rounded overflow-hidden aspect-[4/5] shadow-xl">
+                            <img src="./images/ID Picture2.png" alt="Angeline Ostan Profile"
+                                class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 02. Education Section -->
+        <section id="education" class="py-24" data-aos="fade-up">
+            <h3 class="text-3xl mb-12 flex items-center archivo uppercase">
+                Education
+                <span class="h-[1px] bg-gray-200 flex-grow ml-4"></span>
+            </h3>
+            <div class="max-w-3xl space-y-12 border-l-2 border-gray-100 ml-4 pl-8">
+                <!-- College -->
+                <div class="relative">
+                    <div
+                        class="absolute -left-[41px] top-1 w-4 h-4 bg-amber-500 rounded-full border-4 border-white shadow-sm">
+                    </div>
+                    <div class="flex flex-col md:flex-row md:justify-between mb-1">
+                        <h4 class="text-xl archivo text-slate-900 uppercase">BS in Information Technology</h4>
+                        <span class="courier text-amber-600 font-bold">2022 — Present</span>
+                    </div>
+                    <p class="text-lg font-bold text-gray-700 courier">St. Anthony's College</p>
+                </div>
+                <!-- SHS -->
+                <div class="relative">
+                    <div class="absolute -left-[41px] top-1 w-4 h-4 bg-gray-300 rounded-full border-4 border-white">
+                    </div>
+                    <div class="flex flex-col md:flex-row md:justify-between mb-1">
+                        <h4 class="text-xl archivo text-slate-900 uppercase">Senior High School | HUMMS</h4>
+                        <span class="courier text-gray-400">2020 — 2022</span>
+                    </div>
+                    <p class="text-gray-600 courier">Antique Vocational
+                        School (Honors)</p>
+                    <p class="text-gray-500 courier">Graduated with Honors</p>
+                </div>
+                <!-- JHS -->
+                <div class="relative">
+                    <div class="absolute -left-[41px] top-1 w-4 h-4 bg-gray-300 rounded-full border-4 border-white">
+                    </div>
+                    <div class="flex flex-col md:flex-row md:justify-between mb-1">
+                        <h4 class="text-xl archivo text-slate-900 uppercase">Junior High School</h4>
+                        <span class="courier text-gray-400">2016 — 2020</span>
+                    </div>
+                    <p class="text-gray-500 courier">Antique Vocational School</p>
+                    <p class="text-gray-500 courier">Graduated with Honors</p>
+                </div>
+
+                <!-- Elementary -->
+                <div class="relative">
+                    <div class="absolute -left-[41px] top-1 w-4 h-4 bg-gray-300 rounded-full border-4 border-white">
+                    </div>
+                    <div class="flex flex-col md:flex-row md:justify-between mb-1">
+                        <h4 class="text-xl archivo text-slate-900 uppercase">Elementary</h4>
+                        <span class="courier text-gray-400">2010 — 2016</span>
+                    </div>
+                    <p class="text-gray-500 courier">Zaragoza Elementary School</p>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 03. Tech Stack Section -->
+        <section id="tech-stack" class="py-24" data-aos="fade-up">
+            <h3 class="text-3xl mb-12 flex items-center archivo uppercase">
+                Tech Stack
+                <span class="h-[1px] bg-gray-200 flex-grow ml-4"></span>
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                <!-- Frontend -->
+                <div
+                    class="p-6 bg-gray-50 rounded-xl border border-transparent hover:border-amber-500 transition-all text-center">
+                    <h4 class="archivo text-xs text-gray-400 uppercase mb-6 tracking-tighter">Frontend</h4>
+                    <div class="grid grid-cols-3 gap-6">
+                        <i class="devicon-html5-plain text-3xl hover:text-[#E34F26] transition-colors"
+                            title="HTML5"></i>
+                        <i class="devicon-css3-plain text-3xl hover:text-[#1572B6] transition-colors" title="CSS3"></i>
+                        <i class="devicon-javascript-plain text-3xl hover:text-[#F7DF1E] transition-colors"
+                            title="JavaScript"></i>
+                        <i class="devicon-tailwindcss-original text-3xl hover:text-[#06B6D4] transition-colors"
+                            title="Tailwind"></i>
+                        <i class="devicon-bootstrap-plain text-3xl hover:text-[#7952B3] transition-colors"
+                            title="Bootstrap"></i>
+                    </div>
+                </div>
+
+                <!-- Backend & DB (Added Java and C#) -->
+                <div
+                    class="p-6 bg-gray-50 rounded-xl border border-transparent hover:border-amber-500 transition-all text-center">
+                    <h4 class="archivo text-xs text-gray-400 uppercase mb-6 tracking-tighter">Backend & DB</h4>
+                    <div class="grid grid-cols-3 gap-6">
+                        <i class="devicon-php-plain text-3xl hover:text-[#777BB4] transition-colors" title="PHP"></i>
+                        <i class="devicon-mysql-plain text-3xl hover:text-[#4479A1] transition-colors"
+                            title="MySQL"></i>
+                        <i class="devicon-firebase-plain text-3xl hover:text-[#FFCA28] transition-colors"
+                            title="Firebase"></i>
+                        <i class="devicon-flask-original text-3xl hover:text-black transition-colors" title="Flask"></i>
+                        <i class="devicon-java-plain text-3xl hover:text-[#ED8B00] transition-colors" title="Java"></i>
+                        <i class="devicon-csharp-plain text-3xl hover:text-[#239120] transition-colors" title="C#"></i>
+                    </div>
+                </div>
+
+                <!-- AI/ML -->
+                <div
+                    class="p-6 bg-amber-50/50 rounded-xl border border-amber-100 hover:border-amber-500 transition-all text-center">
+                    <h4 class="archivo text-xs text-amber-600 uppercase mb-6 tracking-tighter font-black">AI & ML</h4>
+                    <div class="grid grid-cols-2 gap-6">
+                        <i class="devicon-tensorflow-original text-3xl hover:text-[#FF6F00] transition-colors"
+                            title="TensorFlow"></i>
+                        <i class="devicon-python-plain text-3xl hover:text-[#3776AB] transition-colors"
+                            title="Python"></i>
+                        <i class="devicon-opencv-plain text-3xl hover:text-[#5C3EE8] transition-colors"
+                            title="OpenCV"></i>
+                        <i class="devicon-jupyter-plain text-3xl hover:text-[#F37626] transition-colors"
+                            title="Jupyter"></i>
+                    </div>
+                </div>
+
+                <!-- Tools & Design (Added Canva and Photoshop) -->
+                <div
+                    class="p-6 bg-gray-50 rounded-xl border border-transparent hover:border-amber-500 transition-all text-center">
+                    <h4 class="archivo text-xs text-gray-400 uppercase mb-6 tracking-tighter">Design & Tools</h4>
+                    <div class="grid grid-cols-2 gap-6">
+                        <i class="devicon-figma-plain text-3xl hover:text-[#F24E1E] transition-colors"
+                            title="Figma"></i>
+                        <i class="devicon-github-original text-3xl hover:text-black transition-colors"
+                            title="GitHub"></i>
+                        <i class="devicon-canva-original text-3xl hover:text-[#00C4CC] transition-colors"
+                            title="Canva"></i>
+                        <i class="devicon-photoshop-plain text-3xl hover:text-[#31A8FF] transition-colors"
+                            title="Photoshop"></i>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 04. Projects Section -->
+        <section id="projects" class="py-24" data-aos="fade-up">
+            <h3 class="text-3xl mb-12 flex items-center archivo uppercase">
+                Projects
+                <span class="h-[1px] bg-gray-200 flex-grow ml-4"></span>
+            </h3>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Project 1 -->
+                <a href="project-literaria.html"
+                    class="group bg-gray-50 p-8 rounded-lg border border-transparent hover:border-amber-200 transition-all hover:-translate-y-2">
+                    <p class="courier text-amber-600 text-sm mb-2">Capstone Project</p>
+                    <h4 class="text-2xl mb-4 archivo group-hover:text-amber-500 transition">Literaria</h4>
+                    <p class="text-gray-600 mb-6 courier text-sm">Adaptive Reading Literacy Platform for Student
+                        Engagement and Comprehension.</p>
+                    <ul class="flex flex-wrap gap-3 courier text-[10px] text-gray-400 uppercase">
+                        <li>HTML</li>
+                        <li>Tailwind</li>
+                        <li>Flask</li>
+                        <li>Firebase</li>
+                    </ul>
+                </a>
+                <!-- Project 2 -->
+                <a href="project-neurodex.html"
+                    class="group bg-gray-50 p-8 rounded-lg border border-transparent hover:border-amber-200 transition-all hover:-translate-y-2">
+                    <p class="courier text-amber-600 text-sm mb-2">SIA 102 Project</p>
+                    <h4 class="text-2xl mb-4 archivo group-hover:text-amber-500 transition">NeuroDex</h4>
+                    <p class="text-gray-600 mb-6 courier text-sm">for Brain Tumor Detection and Classification using
+                        Convolutional Neural Network.</p>
+                    <ul class="flex flex-wrap gap-3 courier text-[10px] text-gray-400 uppercase">
+                        <li>Python</li>
+                        <li>TensorFlow</li>
+                        <li>Flask</li>
+                        <li>MySQL</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="text-center mt-12">
+                <a href="projects.html"
+                    class="courier text-amber-600 font-bold hover:underline decoration-2 underline-offset-8 transition-all">
+                    View More Projects →
+                </a>
+            </div>
+        </section>
+
+        <!-- 05. Contact Section -->
+        <section id="contact" class="py-32 text-center max-w-2xl mx-auto px-4" data-aos="fade-up">
+            <h3 class="text-5xl md:text-7xl mb-6 archivo uppercase">Get In Touch</h3>
+            <p class="text-gray-600 mb-12 courier">
+                Whether you have a question or just want to say
+                hi, feel free to reach out through any of these platforms!
+            </p>
+
+            <!-- Social Media & Email Icons Grid -->
+            <div class="flex flex-wrap justify-center items-center gap-10 md:gap-16">
+
+                <!-- Gmail -->
+                <a href="mailto:angelineostan@gmail.com" class="group flex flex-col items-center">
+                    <i class="devicon-google-plain tech-icon text-4xl"></i>
+                    <span class="tech-label courier font-bold tracking-widest mt-3">Gmail</span>
+                </a>
+
+                <!-- GitHub -->
+                <a href="https://github.com/angelineostan" target="_blank" class="group flex flex-col items-center">
+                    <i class="devicon-github-original tech-icon text-4xl"></i>
+                    <span class="tech-label courier font-bold tracking-widest mt-3">GitHub</span>
+                </a>
+
+                <!-- Facebook -->
+                <a href="https://web.facebook.com/angeline.ostan.3/" target="_blank"
+                    class="group flex flex-col items-center">
+                    <i class="devicon-facebook-plain tech-icon text-4xl"></i>
+                    <span class="tech-label courier font-bold tracking-widest mt-3">Facebook</span>
+                </a>
+
+                <!-- Instagram (Fixed: Starts black, turns Instagram Pink on hover) -->
+                <a href="https://www.instagram.com/__callmeangie__/" target="_blank"
+                    class="group flex flex-col items-center">
+                    <svg class="tech-icon w-9 h-9 transition-colors duration-300 group-hover:text-[#E4405F]"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                    <span class="tech-label courier font-bold tracking-widest mt-3">Instagram</span>
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="py-12 text-center text-gray-400 courier text-xs border-t border-gray-50">
+        <p>&copy; Angeline Ostan 2026 </p>
+    </footer>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="javascript/mobile-nav.js"></script>
+</body>
+
+</html>

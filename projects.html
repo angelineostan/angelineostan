@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | All Projects by Angeline Ostan</title>
+
+    <!-- Tailwind v4 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Courier+Prime:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+        body,
+        .courier {
+            font-family: 'Courier Prime', monospace;
+        }
+
+        h1,
+        h2,
+        h3,
+        .archivo {
+            font-family: 'Archivo', sans-serif;
+            font-weight: 900;
+        }
+
+        /* Smooth row transition */
+        .project-row {
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .project-row:hover {
+            background-color: rgba(245, 158, 11, 0.04);
+        }
+    </style>
+</head>
+
+<body class="bg-white text-gray-800 antialiased">
+
+    <!-- Navigation -->
+    <header class="w-full fixed top-0 bg-white z-[100] border-b border-gray-100">
+        <nav class="py-4">
+            <div class="mx-auto flex max-w-screen-xl items-center justify-between px-4">
+                <!-- Logo - stays on top -->
+                <a href="index.html" class="text-2xl font-bold text-amber-600 archivo z-[200]">
+                    [A.]
+                </a>
+
+                <!-- Desktop Links -->
+                <div class="hidden md:block">
+                    <ul class="flex flex-row space-x-8 items-center text-base">
+                        <li><a href="index.html#about" class="hover:text-amber-600 transition">About</a></li>
+                        <li><a href="index.html#education" class="hover:text-amber-600 transition">Education</a></li>
+                        <li><a href="index.html#tech-stack" class="hover:text-amber-600 transition">Stack</a></li>
+                        <li><a href="index.html#projects" class="hover:text-amber-600 transition">Projects</a></li>
+                        <li><a href="index.html#contact" class="hover:text-amber-600 transition">Contact</a></li>
+                        <li>
+                            <a href="../Ostan_Resume_MULAVESTUDIOS.pdf" target="_blank"
+                                class="border-2 px-4 py-2 border-amber-500 rounded-sm hover:bg-amber-500 hover:text-white transition font-bold">
+                                Resume
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Hamburger Button - stays on top -->
+                <button id="menu-btn" class="block md:hidden z-[200] text-amber-600 focus:outline-none">
+                    <svg id="hamburger-icon" xmlns="http://www.w3.org/2000/svg" class="h-9 w-9" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+                    <svg id="close-icon" xmlns="http://www.w3.org/2000/svg" class="h-9 w-9 hidden" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Full-Screen Mobile Menu Overlay -->
+        <!-- Added: h-screen, top-0, left-0, bg-white (solid) -->
+        <div id="mobile-menu"
+            class="fixed top-0 left-0 w-full h-screen bg-white translate-x-full transition-transform duration-500 ease-in-out z-[150] flex flex-col justify-center items-center md:hidden">
+            <ul class="flex flex-col space-y-10 items-center text-3xl archivo uppercase tracking-[0.2em] text-center">
+                <li><a href="index.html#about" class="mobile-link hover:text-amber-600 transition">About</a></li>
+                <li><a href="index.html#education" class="mobile-link hover:text-amber-600 transition">Education</a>
+                </li>
+                <li><a href="index.html#tech-stack" class="mobile-link hover:text-amber-600 transition">Stack</a></li>
+                <li><a href="index.html#projects" class="mobile-link hover:text-amber-600 transition">Projects</a></li>
+                <li><a href="index.html#contact" class="mobile-link hover:text-amber-600 transition">Contact</a></li>
+                <li class="pt-6">
+                    <a href="../Ostan_Resume_MULAVESTUDIOS.pdf" target="_blank"
+                        class="border-2 px-10 py-4 border-amber-500 rounded-sm text-amber-600 hover:bg-amber-500 hover:text-white transition font-bold">
+                        Resume
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="mx-auto max-w-screen-xl px-4 pt-32 pb-24">
+
+        <!-- Page Title -->
+        <header class="mb-20">
+            <h1 class="text-6xl md:text-8xl mb-4 text-slate-900 archivo">PROJECTS</h1>
+            <p class="courier text-amber-600 text-lg italic">A complete list of things I’ve built throughout my academic
+                journey.</p>
+        </header>
+
+        <!-- Project Table -->
+        <div class="overflow-x-auto">
+            <table class="w-full text-left border-collapse">
+                <thead>
+                    <tr class="border-b border-gray-200 courier text-gray-400 text-xs uppercase tracking-widest">
+                        <th class="py-4 px-2 font-normal">Year</th>
+                        <th class="py-4 px-2 font-normal">Project</th>
+                        <th class="py-4 px-2 font-normal hidden md:table-cell text-center">Category</th>
+                        <th class="py-4 px-2 font-normal hidden lg:table-cell">Built with</th>
+                        <th class="py-4 px-2 font-normal text-right">Link</th>
+                    </tr>
+                </thead>
+                <tbody class="courier text-sm">
+
+                    <!-- Project 1 -->
+                    <tr class="project-row border-b border-gray-50 group">
+                        <td class="py-6 px-2 text-amber-600 font-bold">2025</td>
+                        <td class="py-6 px-2">
+                            <a href="project-literaria.html"
+                                class="font-bold text-gray-900 hover:text-amber-600 block text-base transition">
+                                Literaria
+                            </a>
+                        </td>
+                        <td class="py-6 px-2 hidden md:table-cell text-center">
+                            <span
+                                class="border border-gray-200 text-gray-500 px-3 py-1 rounded-full text-[10px] uppercase">Capstone</span>
+                        </td>
+                        <td class="py-6 px-2 hidden lg:table-cell text-gray-400">
+                            Flask · Firebase · Tailwind · JS
+                        </td>
+                        <td class="py-6 px-2 text-right">
+                            <a href="project-literaria.html"
+                                class="text-gray-300 group-hover:text-amber-600 transition text-xl">↗</a>
+                        </td>
+                    </tr>
+
+                    <!-- Project 2 -->
+                    <tr class="project-row border-b border-gray-50 group">
+                        <td class="py-6 px-2 text-amber-600 font-bold">2025</td>
+                        <td class="py-6 px-2">
+                            <a href="project-neurodex.html"
+                                class="font-bold text-gray-900 hover:text-amber-600 block text-base transition">
+                                NeuroDex
+                            </a>
+                        </td>
+                        <td class="py-6 px-2 hidden md:table-cell text-center">
+                            <span
+                                class="border border-gray-200 text-gray-500 px-3 py-1 rounded-full text-[10px] uppercase">SIA
+                                102</span>
+                        </td>
+                        <td class="py-6 px-2 hidden lg:table-cell text-gray-400">
+                            Python · TensorFlow · Flask · MySQL
+                        </td>
+                        <td class="py-6 px-2 text-right">
+                            <a href="project-neurodex.html"
+                                class="text-gray-300 group-hover:text-amber-600 transition text-xl">↗</a>
+                        </td>
+                    </tr>
+
+                    <!-- Project 3 -->
+                    <tr class="project-row border-b border-gray-50 group">
+                        <td class="py-6 px-2 text-amber-600 font-bold">2025</td>
+                        <td class="py-6 px-2">
+                            <a href="project-scholarship.html"
+                                class="font-bold text-gray-900 hover:text-amber-600 block text-base transition">
+                                Scholarship System
+                            </a>
+                        </td>
+                        <td class="py-6 px-2 hidden md:table-cell text-center">
+                            <span
+                                class="border border-gray-200 text-gray-500 px-3 py-1 rounded-full text-[10px] uppercase">WS
+                                102</span>
+                        </td>
+                        <td class="py-6 px-2 hidden lg:table-cell text-gray-400">
+                            PHP · MySQL · TailwindCSS
+                        </td>
+                        <td class="py-6 px-2 text-right text-gray-300">↗</td>
+                    </tr>
+
+                    <!-- Project 4 -->
+                    <tr class="project-row border-b border-gray-50 group">
+                        <td class="py-6 px-2 text-amber-600 font-bold">2025</td>
+                        <td class="py-6 px-2">
+                            <a href="project-sweetbites.html"
+                                class="font-bold text-gray-900 hover:text-amber-600 block text-base transition">
+                                SweetBites
+                            </a>
+                        </td>
+                        <td class="py-6 px-2 hidden md:table-cell text-center">
+                            <span
+                                class="border border-gray-200 text-gray-500 px-3 py-1 rounded-full text-[10px] uppercase">WS
+                                101</span>
+                        </td>
+                        <td class="py-6 px-2 hidden lg:table-cell text-gray-400">
+                            HTML · Bootstrap · JS
+                        </td>
+                        <td class="py-6 px-2 text-right text-gray-300">↗</td>
+                    </tr>
+
+                    <!-- Project 5 -->
+                    <tr class="project-row border-b border-gray-50 group">
+                        <td class="py-6 px-2 text-amber-600 font-bold">2025</td>
+                        <td class="py-6 px-2">
+                            <a href="project-fureverhome.html"
+                                class="font-bold text-gray-900 hover:text-amber-600 block text-base transition">
+                                FurEver Home
+                            </a>
+                        </td>
+                        <td class="py-6 px-2 hidden md:table-cell text-center">
+                            <span
+                                class="border border-gray-200 text-gray-500 px-3 py-1 rounded-full text-[10px] uppercase">WS
+                                101</span>
+                        </td>
+                        <td class="py-6 px-2 hidden lg:table-cell text-gray-400">
+                            Android · Java · Firebase
+                        </td>
+                        <td class="py-6 px-2 text-right text-gray-300">↗</td>
+                    </tr>
+
+                    <!-- Project 7 -->
+                    <tr class="project-row border-b border-gray-50 group">
+                        <td class="py-6 px-2 text-amber-600 font-bold">2024</td>
+                        <td class="py-6 px-2">
+                            <a href="project-spacescout.html"
+                                class="font-bold text-gray-900 hover:text-amber-600 block text-base transition">
+                                SpaceScout
+                            </a>
+                        </td>
+                        <td class="py-6 px-2 hidden md:table-cell text-center">
+                            <span
+                                class="border border-gray-200 text-gray-500 px-3 py-1 rounded-full text-[10px] uppercase">WS
+                                101</span>
+                        </td>
+                        <td class="py-6 px-2 hidden lg:table-cell text-gray-400">
+                            Figma
+                        </td>
+                        <td class="py-6 px-2 text-right text-gray-300">↗</td>
+                    </tr>
+
+                    <!-- Project 9 -->
+                    <tr class="project-row border-b border-gray-50 group">
+                        <td class="py-6 px-2 text-amber-600 font-bold">2024</td>
+                        <td class="py-6 px-2">
+                            <a href="project-quicktrike.html"
+                                class="font-bold text-gray-900 hover:text-amber-600 block text-base transition">
+                                QuickTrike
+                            </a>
+                        </td>
+                        <td class="py-6 px-2 hidden md:table-cell text-center">
+                            <span
+                                class="border border-gray-200 text-gray-500 px-3 py-1 rounded-full text-[10px] uppercase">HCI
+                                102</span>
+                        </td>
+                        <td class="py-6 px-2 hidden lg:table-cell text-gray-400">
+                            Figma
+                        </td>
+                        <td class="py-6 px-2 text-right text-gray-300">↗</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Call to Action -->
+        <!-- <section class="mt-32 text-center max-w-xl mx-auto">
+            <p class="courier text-gray-400 mb-6 uppercase tracking-widest text-xs">Collaboration</p>
+            <h3 class="text-4xl archivo mb-8">HAVE A PROJECT IN MIND?</h3>
+            <a href="index.html#contact"
+                class="archivo border-2 border-amber-500 px-10 py-4 text-amber-600 hover:bg-amber-500 hover:text-white transition inline-block uppercase tracking-widest text-sm font-bold">
+                Get In Touch
+            </a>
+        </section> -->
+
+    </main>
+
+    <footer class="py-12 text-center courier text-gray-400 text-xs border-t border-gray-50">
+        <p>&copy; Angeline Ostan 2026 </p>
+    </footer>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="./javascript/mobile-nav.js"></script>
+
+</body>
+
+</html>

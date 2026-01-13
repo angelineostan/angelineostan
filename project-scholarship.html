@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarship System | Project Details</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Courier+Prime:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Devicon CDN for Tech Icons -->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <style>
+        body,
+        .courier {
+            font-family: 'Courier Prime', monospace;
+        }
+
+        h1,
+        h2,
+        h3,
+        .archivo {
+            font-family: 'Archivo', sans-serif;
+            font-weight: 900;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Tech Icon Logic: Black by default, True Color on Hover */
+        .tech-icon {
+            font-size: 1.8rem;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            filter: grayscale(100%) brightness(0);
+            opacity: 0.7;
+        }
+
+        .group:hover .tech-icon {
+            filter: grayscale(0%) brightness(1);
+            opacity: 1;
+            transform: translateY(-3px);
+        }
+
+        .tech-label {
+            font-size: 9px;
+            color: #9ca3af;
+            text-transform: uppercase;
+            margin-top: 0.5rem;
+            text-align: center;
+            line-height: 1.1;
+            transition: color 0.3s ease;
+        }
+
+        .group:hover .tech-label {
+            color: #1f2937;
+        }
+    </style>
+</head>
+
+<body class="bg-white text-gray-800">
+
+    <!-- Navigation -->
+    <header class="w-full fixed top-0 bg-white z-[100] border-b border-gray-100">
+        <nav class="py-4">
+            <div class="mx-auto flex max-w-screen-xl items-center justify-between px-4">
+                <!-- Logo - stays on top -->
+                <a href="index.html" class="text-2xl font-bold text-amber-600 archivo z-[200]">
+                    [A.]
+                </a>
+
+                <!-- Desktop Links -->
+                <div class="hidden md:block">
+                    <ul class="flex flex-row space-x-8 items-center text-base">
+                        <li><a href="index.html#about" class="hover:text-amber-600 transition">About</a></li>
+                        <li><a href="index.html#education" class="hover:text-amber-600 transition">Education</a></li>
+                        <li><a href="index.html#tech-stack" class="hover:text-amber-600 transition">Stack</a></li>
+                        <li><a href="index.html#projects" class="hover:text-amber-600 transition">Projects</a></li>
+                        <li><a href="index.html#contact" class="hover:text-amber-600 transition">Contact</a></li>
+                        <li>
+                            <a href="../Ostan_Resume_MULAVESTUDIOS.pdf" target="_blank"
+                                class="border-2 px-4 py-2 border-amber-500 rounded-sm hover:bg-amber-500 hover:text-white transition font-bold">
+                                Resume
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Hamburger Button - stays on top -->
+                <button id="menu-btn" class="block md:hidden z-[200] text-amber-600 focus:outline-none">
+                    <svg id="hamburger-icon" xmlns="http://www.w3.org/2000/svg" class="h-9 w-9" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+                    <svg id="close-icon" xmlns="http://www.w3.org/2000/svg" class="h-9 w-9 hidden" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Full-Screen Mobile Menu Overlay -->
+        <!-- Added: h-screen, top-0, left-0, bg-white (solid) -->
+        <div id="mobile-menu"
+            class="fixed top-0 left-0 w-full h-screen bg-white translate-x-full transition-transform duration-500 ease-in-out z-[150] flex flex-col justify-center items-center md:hidden">
+            <ul class="flex flex-col space-y-10 items-center text-3xl archivo uppercase tracking-[0.2em] text-center">
+                <li><a href="index.html#about" class="mobile-link hover:text-amber-600 transition">About</a></li>
+                <li><a href="index.html#education" class="mobile-link hover:text-amber-600 transition">Education</a>
+                </li>
+                <li><a href="index.html#tech-stack" class="mobile-link hover:text-amber-600 transition">Stack</a></li>
+                <li><a href="index.html#projects" class="mobile-link hover:text-amber-600 transition">Projects</a></li>
+                <li><a href="index.html#contact" class="mobile-link hover:text-amber-600 transition">Contact</a></li>
+                <li class="pt-6">
+                    <a href="../Ostan_Resume_MULAVESTUDIOS.pdf" target="_blank"
+                        class="border-2 px-10 py-4 border-amber-500 rounded-sm text-amber-600 hover:bg-amber-500 hover:text-white transition font-bold">
+                        Resume
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="mx-auto max-w-screen-xl px-4 pt-32 pb-24">
+
+        <!-- Project Hero -->
+        <section class="mb-16">
+
+            <p class="text-amber-600 courier mb-2 text-lg">WS 102 Project</p>
+            <h1 class="text-6xl md:text-8xl mb-8 uppercase">SCHOLARSHIP SYSTEM</h1>
+
+            <!-- Large Featured Image -->
+            <div class="w-full aspect-video bg-gray-100 rounded-lg overflow-hidden border border-gray-200">
+                <img src="./images/ScholarshipLandingPage.png" alt="Scholarship System Landing Page"
+                    class="w-full h-full object-cover">
+            </div>
+        </section>
+
+        <!-- Project Details Grid -->
+        <div class="grid md:grid-cols-3 gap-12">
+
+            <!-- Left Column -->
+            <div class="md:col-span-2 space-y-8">
+                <div>
+                    <h3 class="text-2xl mb-4 archivo uppercase">Overview</h3>
+                    <p class="text-lg text-gray-600 leading-relaxed">
+                        The Scholarship System was developed to centralize and automate the application process for
+                        students. By digitizing paper-based workflows using a PHP backend, the platform reduces
+                        administrative overhead and ensures a transparent selection process.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-2xl mb-4 archivo uppercase">The Challenge</h3>
+                    <p class="text-lg text-gray-600 leading-relaxed">
+                        The primary technical challenge involved designing a relational database in MySQL that could
+                        efficiently handle complex relationships between students, scholarship types, and verification
+                        documents while maintaining data integrity.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-2xl mb-4 archivo uppercase">Key Features</h3>
+                    <ul class="list-none space-y-3 text-lg text-gray-600">
+                        <li class="flex items-start"><span class="text-amber-500 mr-2 courier">▹</span> Dynamic student
+                            application portal built with PHP.</li>
+                        <li class="flex items-start"><span class="text-amber-500 mr-2 courier">▹</span> Secure
+                            Relational Database Management using MySQL.</li>
+                        <li class="flex items-start"><span class="text-amber-500 mr-2 courier">▹</span> Admin dashboard
+                            for application auditing and status updates.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Right Column: Meta Info -->
+            <div class="space-y-8 bg-gray-50 p-8 rounded-lg h-fit">
+                <div>
+                    <h4 class="courier text-sm text-gray-400 uppercase tracking-widest mb-6 font-bold">Technologies Used
+                    </h4>
+
+                    <!-- Tech Icons Grid -->
+                    <div class="grid grid-cols-4 gap-y-8 gap-x-2">
+                        <div class="flex flex-col items-center group cursor-default">
+                            <i class="devicon-php-plain tech-icon colored"></i>
+                            <span class="tech-label courier">PHP</span>
+                        </div>
+                        <div class="flex flex-col items-center group cursor-default">
+                            <i class="devicon-mysql-plain tech-icon colored"></i>
+                            <span class="tech-label courier">MySQL</span>
+                        </div>
+                        <div class="flex flex-col items-center group cursor-default">
+                            <i class="devicon-tailwindcss-original tech-icon colored"></i>
+                            <span class="tech-label courier">Tailwind</span>
+                        </div>
+                        <div class="flex flex-col items-center group cursor-default">
+                            <i class="devicon-html5-plain tech-icon colored"></i>
+                            <span class="tech-label courier">HTML5</span>
+                        </div>
+                        <div class="flex flex-col items-center group cursor-default">
+                            <i class="devicon-javascript-plain tech-icon colored"></i>
+                            <span class="tech-label courier">JS ES6</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="courier text-sm text-gray-400 uppercase tracking-widest mb-2 font-bold">My Role</h4>
+                    <p class="font-bold">Lead Developer (Full-Stack)</p>
+                    <p class="font-bold">Database Administrator</p>
+                </div>
+
+                <div>
+                    <h4 class="courier text-sm text-gray-400 uppercase tracking-widest mb-2 font-bold">Date</h4>
+                    <p class="font-bold">2025</p>
+                </div>
+
+                <div class="pt-4 space-y-4">
+                    <a href="https://github.com/angelineostan/Scholarship-System" target="_blank"
+                        class="block w-full text-center bg-gray-900 text-white py-4 rounded font-bold hover:bg-gray-800 transition">
+                        View Code on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Gallery / Screenshots -->
+        <section class="mt-24">
+            <h3 class="text-3xl mb-10 archivo uppercase tracking-tight">Project Screenshots</h3>
+
+            <div class="relative overflow-hidden">
+                <div id="screenshot-track" class="flex gap-8 transition-transform duration-500 ease-in-out">
+                    <div
+                        class="w-full md:w-[calc(50%-1rem)] aspect-video rounded-lg border border-gray-200 overflow-hidden flex-shrink-0 bg-gray-100 cursor-pointer group/img">
+                        <img src="./images/ScholarshipDashboard.png" alt="Scholarship Dashboard"
+                            class="gallery-img w-full h-full object-cover transition-transform duration-300 group-hover/img:scale-105">
+                    </div>
+
+                    <div
+                        class="w-full md:w-[calc(50%-1rem)] aspect-video rounded-lg border border-gray-200 overflow-hidden flex-shrink-0 bg-gray-100 cursor-pointer group/img">
+                        <img src="./images/ScholarshipApplicationStat.png" alt="Application Statistics"
+                            class="gallery-img w-full h-full object-cover transition-transform duration-300 group-hover/img:scale-105">
+                    </div>
+
+                    <div
+                        class="w-full md:w-[calc(50%-1rem)] aspect-video rounded-lg border border-gray-200 overflow-hidden flex-shrink-0 bg-gray-100 cursor-pointer group/img">
+                        <img src="./images/ScholarshipLandingPage.png" alt="Landing Page"
+                            class="gallery-img w-full h-full object-cover transition-transform duration-300 group-hover/img:scale-105">
+                    </div>
+                </div>
+
+                <!-- Navigation Buttons -->
+                <button id="btnNext"
+                    class="absolute right-2 top-1/2 -translate-y-1/2 bg-amber-500 text-white w-12 h-12 rounded-full shadow-xl flex items-center justify-center z-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7" />
+                    </svg>
+                </button>
+                <button id="btnPrev"
+                    class="absolute left-2 top-1/2 -translate-y-1/2 bg-white border border-gray-200 text-amber-600 w-12 h-12 rounded-full shadow-xl flex items-center justify-center z-10 opacity-0 pointer-events-none transition-all">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7" />
+                    </svg>
+                </button>
+            </div>
+        </section>
+
+        <!-- Lightbox -->
+        <div id="lightbox"
+            class="fixed inset-0 z-[100] hidden backdrop-blur-lg flex items-center justify-center p-4 cursor-zoom-out">
+            <button
+                class="absolute top-10 right-10 text-white text-5xl courier hover:text-amber-500 transition-colors">&times;</button>
+            <img id="lightbox-img" src="" class="max-h-[85vh] max-w-full rounded-lg shadow-2xl border-4 border-white/10"
+                alt="Enlarged View">
+        </div>
+
+    </main>
+
+    <footer class="py-12 border-t border-gray-100 text-center courier text-gray-400">
+        <p>&copy; Angeline Ostan 2026 </p>
+    </footer>
+
+    <script>
+        const track = document.getElementById('screenshot-track');
+        const btnNext = document.getElementById('btnNext');
+        const btnPrev = document.getElementById('btnPrev');
+        let index = 0;
+
+        function updateSlider() {
+            const itemWidth = track.children[0].offsetWidth;
+            const gap = 32;
+            const moveDistance = index * (itemWidth + gap);
+            track.style.transform = `translateX(-${moveDistance}px)`;
+            const visibleItems = window.innerWidth >= 768 ? 2 : 1;
+            btnNext.style.opacity = index >= track.children.length - visibleItems ? "0" : "1";
+            btnNext.style.pointerEvents = index >= track.children.length - visibleItems ? "none" : "auto";
+            btnPrev.style.opacity = index > 0 ? "1" : "0";
+            btnPrev.style.pointerEvents = index > 0 ? "auto" : "none";
+        }
+
+        btnNext.addEventListener('click', () => { index++; updateSlider(); });
+        btnPrev.addEventListener('click', () => { index--; updateSlider(); });
+        window.addEventListener('resize', updateSlider);
+
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        document.querySelectorAll('.gallery-img').forEach(img => {
+            img.addEventListener('click', () => {
+                lightboxImg.src = img.src;
+                lightbox.classList.remove('hidden');
+                document.body.style.overflow = 'hidden';
+            });
+        });
+
+        lightbox.addEventListener('click', () => {
+            lightbox.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === "Escape") {
+                lightbox.classList.add('hidden');
+                document.body.style.overflow = 'auto';
+            }
+        });
+    </script>
+
+    <script src="./javascript/mobile-nav.js"></script>
+</body>
+
+</html>

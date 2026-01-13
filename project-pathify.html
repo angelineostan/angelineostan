@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Literaria | Project Details</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Courier+Prime:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body,
+        .courier {
+            font-family: 'Courier Prime', monospace;
+        }
+
+        h1,
+        h2,
+        h3,
+        .archivo {
+            font-family: 'Archivo', sans-serif;
+            font-weight: 900;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="bg-white text-gray-800">
+
+    <!-- Navigation (Simplified for Project Page) -->
+    <header class="w-full fixed top-0 bg-white z-50">
+        <nav class="py-5">
+            <div class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between px-4">
+                <a href="#" id="logo" class="text-2xl font-bold text-amber-600 archivo">
+                    [A.]
+                </a>
+                <div>
+                    <ul class="flex flex-row space-x-8 items-center" id="navigation-links">
+                        <li><a href="#" class="hover:text-amber-600 transition">Home</a></li>
+                        <li><a href="#about" class="hover:text-amber-600 transition">About</a></li>
+                        <li><a href="#projects" class="hover:text-amber-600 transition">Projects</a></li>
+                        <li><a href="#contact" class="hover:text-amber-600 transition">Contact</a></li>
+                        <li>
+                            <a href="#"
+                                class="border-2 px-4 py-2 border-amber-500 rounded-sm hover:bg-amber-500 hover:text-white transition">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="mx-auto max-w-screen-xl px-4 pt-32 pb-24">
+
+        <!-- Project Hero -->
+        <section class="mb-16">
+            <!-- <div class="mb-10">
+                <a href="index.html" class="text-amber-600 courier font-bold hover:text-amber-700 transition ">
+                    ← Back to Portfolio
+                </a>
+
+            </div> -->
+
+
+            <p class="text-amber-600 courier mb-2 text-lg">AI.DEAS For Impact Project</p>
+            <h1 class="text-6xl md:text-8xl mb-8">PATHIFY</h1>
+
+            <!-- Large Featured Image -->
+            <div class="w-full aspect-video bg-gray-100 rounded-lg overflow-hidden border border-gray-200">
+                <!-- Replace with your project screenshot -->
+                <img src="./images/LiterariaLandingPage.png" alt="Literaria Screenshot"
+                    class="w-full h-full object-cover">
+            </div>
+        </section>
+
+        <!-- Project Details Grid -->
+        <div class="grid md:grid-cols-3 gap-12">
+
+            <!-- Left Column: The Story (Spans 2 columns) -->
+            <div class="md:col-span-2 space-y-8">
+                <div>
+                    <h3 class="text-2xl mb-4 archivo uppercase">Overview</h3>
+                    <p class="text-lg text-gray-600 leading-relaxed">
+                        Literaria was developed to address the declining reading comprehension rates among students.
+                        As a Capstone project, the goal was to create an adaptive platform that gamifies the reading
+                        experience while providing teachers with real-time data on student progress.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-2xl mb-4 archivo uppercase">The Challenge</h3>
+                    <p class="text-lg text-gray-600 leading-relaxed">
+                        The main technical challenge was creating an "Adaptive" system—meaning the difficulty of the
+                        text and quizzes needed to change based on the student's previous performance in real-time.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-2xl mb-4 archivo uppercase">Key Features</h3>
+                    <ul class="list-none space-y-3 text-lg text-gray-600">
+                        <li class="flex items-start"><span class="text-amber-500 mr-2 courier">▹</span> Real-time
+                            comprehension tracking via Firebase.</li>
+                        <li class="flex items-start"><span class="text-amber-500 mr-2 courier">▹</span> Dynamic UI that
+                            adapts to different reading levels.</li>
+                        <li class="flex items-start"><span class="text-amber-500 mr-2 courier">▹</span> Teacher
+                            dashboard for class-wide analytics.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Right Column: Meta Info -->
+            <div class="space-y-8 bg-gray-50 p-8 rounded-lg h-fit">
+                <div>
+                    <h4 class="courier text-sm text-gray-400 uppercase tracking-widest mb-2">Technologies Used</h4>
+                    <ul class="courier text-amber-700 font-bold">
+                        <li>HTML</li>
+                        <li>Tailwind CSS</li>
+                        <li>JavaScript</li>
+                        <li>Flask (Python)</li>
+                        <li>Firebase Firestore</li>
+                        <li>Text-to-Speech (Gemini TTS)</li>
+                        <li>Speech-to-Text (Google Cloud STT Chirp Model)</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="courier text-sm text-gray-400 uppercase tracking-widest mb-2">My Role</h4>
+                    <p class="font-bold">Project Manager</p>
+                    <p class="font-bold">Developer (Full-Stack)</p>
+                </div>
+
+                <div>
+                    <h4 class="courier text-sm text-gray-400 uppercase tracking-widest mb-2">Date</h4>
+                    <p class="font-bold">July 2025 — Present</p>
+                </div>
+
+                <div class="pt-4 space-y-4">
+                    <a href="https://github.com/angelineostan/Literaria" target="_blank"
+                        class="block w-full text-center bg-gray-900 text-white py-4 rounded font-bold hover:bg-gray-800 transition">
+                        View Code on GitHub
+                    </a>
+                    <!-- <a href="#" target="_blank"
+                        class="block w-full text-center border-2 border-amber-500 text-amber-600 py-4 rounded font-bold hover:bg-amber-50 transition">
+                        Live Demo Link
+                    </a> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Gallery / Screenshots -->
+        <section class="mt-24">
+            <h3 class="text-3xl mb-10 archivo uppercase tracking-tight">Project Screenshots</h3>
+
+            <div class="relative overflow-hidden">
+                <!-- The Slider Track -->
+                <div id="screenshot-track" class="flex gap-8 transition-transform duration-500 ease-in-out">
+
+                    <!-- Image 1 - added 'cursor-pointer' and 'gallery-img' class -->
+                    <div
+                        class="w-full md:w-[calc(50%-1rem)] aspect-video rounded-lg border border-gray-200 overflow-hidden flex-shrink-0 bg-gray-100 cursor-pointer group/img">
+                        <img src="./images/ReadingPassages.png" alt="Reading Passages"
+                            class="gallery-img w-full h-full object-cover transition-transform duration-300 group-hover/img:scale-105">
+                    </div>
+
+                    <!-- Image 2 -->
+                    <div
+                        class="w-full md:w-[calc(50%-1rem)] aspect-video rounded-lg border border-gray-200 overflow-hidden flex-shrink-0 bg-gray-100 cursor-pointer group/img">
+                        <img src="./images/ReadingPassageContent.png" alt="Content View"
+                            class="gallery-img w-full h-full object-cover transition-transform duration-300 group-hover/img:scale-105">
+                    </div>
+
+                    <!-- Image 3 -->
+                    <div
+                        class="w-full md:w-[calc(50%-1rem)] aspect-video rounded-lg border border-gray-200 overflow-hidden flex-shrink-0 bg-gray-100 cursor-pointer group/img">
+                        <img src="./images/LiterariaLandingPage.png" alt="Landing Page"
+                            class="gallery-img w-full h-full object-cover transition-transform duration-300 group-hover/img:scale-105">
+                    </div>
+
+                </div>
+
+                <!-- Carousel Navigation -->
+                <button id="btnNext"
+                    class="absolute right-2 top-1/2 -translate-y-1/2 bg-amber-500 text-white w-12 h-12 rounded-full shadow-xl flex items-center justify-center z-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7" />
+                    </svg>
+                </button>
+                <button id="btnPrev"
+                    class="absolute left-2 top-1/2 -translate-y-1/2 bg-white border border-gray-200 text-amber-600 w-12 h-12 rounded-full shadow-xl flex items-center justify-center z-10 opacity-0 pointer-events-none transition-all">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7" />
+                    </svg>
+                </button>
+            </div>
+        </section>
+
+        <!-- Lightbox Modal (Hidden by default) -->
+        <div id="lightbox"
+            class="fixed inset-0 z-[100] hidden backdrop-blur-lg flex items-center justify-center p-4 cursor-zoom-out">
+            <!-- Close Button -->
+            <button
+                class="absolute top-10 right-10 text-white text-5xl courier hover:text-amber-500 transition-colors">&times;</button>
+
+            <!-- Maximize the image size but keep aspect ratio -->
+            <img id="lightbox-img" src="" class="max-h-[85vh] max-w-full rounded-lg shadow-2xl border-4 border-white/10"
+                alt="Enlarged View">
+        </div>
+
+    </main>
+
+    <footer class="py-12 border-t border-gray-100 text-center courier text-gray-400">
+        <p>&copy; Angeline Ostan 2026 </p>
+    </footer>
+
+    <!-- Script -->
+    <script>
+        // --- Carousel Logic ---
+        const track = document.getElementById('screenshot-track');
+        const btnNext = document.getElementById('btnNext');
+        const btnPrev = document.getElementById('btnPrev');
+        let index = 0;
+
+        function updateSlider() {
+            const itemWidth = track.children[0].offsetWidth;
+            const gap = 32;
+            const moveDistance = index * (itemWidth + gap);
+            track.style.transform = `translateX(-${moveDistance}px)`;
+
+            const visibleItems = window.innerWidth >= 768 ? 2 : 1;
+            btnNext.style.opacity = index >= track.children.length - visibleItems ? "0" : "1";
+            btnNext.style.pointerEvents = index >= track.children.length - visibleItems ? "none" : "auto";
+            btnPrev.style.opacity = index > 0 ? "1" : "0";
+            btnPrev.style.pointerEvents = index > 0 ? "auto" : "none";
+        }
+
+        btnNext.addEventListener('click', () => { index++; updateSlider(); });
+        btnPrev.addEventListener('click', () => { index--; updateSlider(); });
+        window.addEventListener('resize', updateSlider);
+
+
+        // --- Lightbox Logic ---
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const galleryImgs = document.querySelectorAll('.gallery-img');
+
+        // Open Lightbox
+        galleryImgs.forEach(img => {
+            img.addEventListener('click', () => {
+                lightboxImg.src = img.src; // Set the large image source to the clicked image source
+                lightbox.classList.remove('hidden'); // Show the modal
+                document.body.style.overflow = 'hidden'; // Stop page from scrolling
+            });
+        });
+
+        // Close Lightbox (When clicking anywhere on the black background)
+        lightbox.addEventListener('click', () => {
+            lightbox.classList.add('hidden'); // Hide the modal
+            document.body.style.overflow = 'auto'; // Re-enable scrolling
+        });
+
+        // Close with Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === "Escape") {
+                lightbox.classList.add('hidden');
+                document.body.style.overflow = 'auto';
+            }
+        });
+    </script>
+
+
+</body>
+
+</html>
