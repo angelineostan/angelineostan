@@ -1,3 +1,5 @@
+<img width="1363" height="345" alt="ascii-art-text" src="https://github.com/user-attachments/assets/f083d0b7-c5c8-4392-b169-93bb28cc7209" />
+
 <h1 align="center">Hi 👋, I'm Angeline</h1>
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?color=FFFFFF&center=true&vCenter=true&width=500&height=40&lines=Web+Developer;Python+Developer;I+Do+UI/UX+Design;Problem+Solver;Always+Learning+New+Tech" alt="Typing SVG" />
