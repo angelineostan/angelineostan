@@ -1,4 +1,3 @@
-<!-- Banner / Typing Intro -->
 <h1 align="center">Hi 👋, I'm Angeline</h1>
 <h3 align="center">IT Student | Frontend Designer | Full-Stack Developer</h3>
 
@@ -8,7 +7,6 @@
 
 ---
 
-<!-- About Me Section with Side GIF -->
 <img align="right" alt="Coding" width="280" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
 
 ## 🚀 About Me
@@ -22,20 +20,59 @@
 
 ---
 
-## 🛠 Tech Stack & Tools
+## 🛠 Tech Stack
 
-### 💻 Languages & Frameworks
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,tailwind,bootstrap,python,flask,java,c" />
-  </a>
+<h3 align="center">💻 Languages & Core Web</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
 </p>
 
-### ⚙️ Databases, Cloud & Design Tools
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=firebase,gcp,figma,vscode,git,github,docker" />
-  </a>
+<h3 align="center">🚀 Frameworks & Styling</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="TailwindCSS" />
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+</p>
+
+<h3 align="center">📊 Data Science & Machine Learning</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/SciKit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="SciKit Learn" />
+  <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=black" alt="SciPy" />
+  <img src="https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge&logo=matplotlib&logoColor=black" alt="Matplotlib" />
+  <img src="https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white" alt="Anaconda" />
+</p>
+
+<h3 align="center">☁️ Cloud, Databases & Platforms</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Google Cloud" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Render" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/Netlify-00C8B5?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify" />
+</p>
+
+<h3 align="center">🛠️ Developer Tools & Design</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Cisco-115B8C?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+  <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva" />
+  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
 </p>
 
 ---
@@ -45,33 +82,38 @@
 ### 📚 Literaria — Interactive Reading Literacy Platform
 An adaptive, serverless reading platform designed to boost student engagement and comprehension through gamified experiences.
 - **Tech Stack:** Flask (Python), Tailwind CSS, Firebase, Google Cloud, Hosted on Render.
-- **Features:** Interactive learning tracks, real-time user progress, and a dedicated instructor monitoring dashboard.
+- **Features:** Interactive learning tracks, real-time user progress tracking, and a dedicated instructor monitoring dashboard.
 
 ### 🗳 Blockchain-Inspired Voting Kiosk System
 A secure, streamlined localized voting platform built to simulate transparent cryptographic validation.
 - **Tech Stack:** Flask Backend, HTML5/Tailwind UI, Firebase.
-- **Features:** Web-based kiosk interface, secure multi-user role management, and real-time tallying.
+- **Features:** Web-based kiosk interface, secure multi-user role management, and real-time tallying updates.
 
 ### 🐾 Pet Adoption Mobile App
-A real-time mobile application connecting shelters with prospective pet owners.
+A real-time mobile application connecting shelters with prospective pet owners seamlessly.
 - **Tech Stack:** Android (Java/XML), Firebase Realtime Database.
-- **Features:** Application status tracking, shelter-side approval system, and instant live notifications.
+- **Features:** Application status tracking, shelter-side approval dashboard, and instant live notifications.
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOURUSERNAME&show_icons=true&theme=tokyonight&ranking_badge=true" alt="Angeline's GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOURUSERNAME&layout=compact&theme=tokyonight" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=YOURUSERNAME&theme=tokyonight" alt="GitHub Streak" />
-</p>
+<table border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse: collapse; border: none; width: 100%;">
+  <tr>
+    <td valign="top" width="50%">
+      <img src="https://github-readme-stats.vercel.app/api?username=YOURUSERNAME&show_icons=true&theme=tokyonight&count_private=true" width="100%" alt="GitHub Stats" />
+    </td>
+    <td valign="top" width="50%">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOURUSERNAME&layout=compact&theme=tokyonight" width="100%" alt="Top Languages" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" colspan="2" width="100%">
+      <br/>
+      <img src="https://streak-stats.demolab.com/?user=YOURUSERNAME&theme=tokyonight" width="100%" alt="GitHub Streak" />
+    </td>
+  </tr>
+</table>
 
 ### 🏆 GitHub Trophies
 <p align="center">
@@ -92,9 +134,18 @@ A real-time mobile application connecting shelters with prospective pet owners.
 
 ---
 
+## 📚 Currently Learning
+
+- Advanced System Architectures
+- Mobile Application Development Frameworks
+- Cryptographic Systems & Blockchain Applications
+- Secure Software Engineering & Penetration Testing
+
+---
+
 ## 🤝 Connect With Me
 
-<p align="left">
+<p align="center">
   <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
