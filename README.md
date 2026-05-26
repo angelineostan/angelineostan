@@ -1,22 +1,29 @@
 <h1 align="center">Hi 👋, I'm Angeline</h1>
-<h3 align="center">IT Student | Web Developer </h3>
-
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&center=true&vCenter=true&width=500&height=40&lines=UI%2FUX+%26+Web+Developer;UI/UX;Python+%26+Developer;Problem+Solver;Always+Learning+New+Tech" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=FFFFFF&center=true&vCenter=true&width=500&height=40&lines=Web+Developer;Python+Developer;I+Do+UI/UX+Design;Problem+Solver;Always+Learning+New+Tech" alt="Typing SVG" />
 </p>
 
----
 
-## 🚀 About Me
+<p align="center">
+  <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:angelineostan@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=angelineostan&label=Profile%20Views&color=00F7FF&style=for-the-badge" alt="Profile Views" />
+</p>
 
-- 🎓 **IT Student** passionate about bridging the gap between beautiful UI/UX and clean client-side code.
-- 🌐 **Web Developer** crafting responsive, modern frontends backed by efficient serverless architectures.
-- 📱 **Mobile Developer** focused on building fast, real-time interactive experiences.
-- 🐍 **Backend Development** using Python, Flask, and Firebase.
 
----
 
-## 🛠 Tech Stack
+
+<p align="center">
+  I am an <b>Information Technology student</b> and developer dedicated to bridging the gap between intuitive <b>UI/UX design</b> and powerful, client-side engineering. As a versatile <b>Web and Mobile Developer</b>, I specialize in crafting responsive modern frontends and building fast, real-time interactive mobile applications. My technical expertise spans across robust backend environments using <b>Python and Flask</b>, seamless serverless integrations with <b>Firebase</b>, and data-driven systems. Driven by purposeful software engineering, I focus on transforming complex technical workflows into scalable, high-impact digital tools that solve real-world problems.
+</p>
+
+
+
+<h3 align="center">🛠 Tech Stack</h3>
 
 <h3 align="center">💻 Languages & Core Web</h3>
 <p align="center">
@@ -110,29 +117,6 @@ A website for Detecting Brain Tumors from MRI images and classify them into 4 cl
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=angelineostan&theme=onedark&row=1&column=6" alt="Trophies" />
 </p>
-
----
-
-## 📈 Contribution Activity
-
-### Activity Graph
-[![Angeline's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=angelineostan&theme=tokyo-night)](https://github.com/YOURUSERNAME)
-
----
-
-## 🤝 Connect With Me
-
-<p align="center">
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:angelineostan@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=angelineostan&label=Profile%20Views&color=00F7FF&style=for-the-badge" alt="Profile Views" />
-</p>
-
----
 
 <p align="center">
   <i>"Building technology that balances intuitive design with secure, practical execution."</i>
