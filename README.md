@@ -127,7 +127,7 @@ A real-time mobile application connecting shelters with prospective pet owners s
 
 ### Contribution Snake
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YOURUSERNAME/angelineostan/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
+  <img src="https://raw.githubusercontent.com/angelineostan/angelineostan/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
 </p>
 
 ---
