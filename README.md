@@ -1,8 +1,8 @@
 <h1 align="center">Hi 👋, I'm Angeline</h1>
-<h3 align="center">IT Student | Frontend Designer | Full-Stack Developer</h3>
+<h3 align="center">IT Student | Web Developer </h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&center=true&vCenter=true&width=500&height=40&lines=UI%2FUX+%26+Frontend+Design;Mobile+App+Developer;Backend+%26+API+Development;Problem+Solver;Always+Learning+New+Tech" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&center=true&vCenter=true&width=500&height=40&lines=UI%2FUX+%26+Web+Developer;UI/UX;Python+%26+Developer;Problem+Solver;Always+Learning+New+Tech" alt="Typing SVG" />
 </p>
 
 ---
@@ -10,8 +10,8 @@
 ## 🚀 About Me
 
 - 🎓 **IT Student** passionate about bridging the gap between beautiful UI/UX and clean client-side code.
-- 📱 **Mobile Developer** focused on building fast, real-time interactive experiences.
 - 🌐 **Web Developer** crafting responsive, modern frontends backed by efficient serverless architectures.
+- 📱 **Mobile Developer** focused on building fast, real-time interactive experiences.
 - 🐍 **Backend Development** using Python, Flask, and Firebase.
 - 🔐 **Tech Enthusiast** interested in Cybersecurity awareness, secure application development, and web systems.
 - 🌱 **Mission:** Building accessible, gamified, and high-impact digital tools to solve real-world problems.
@@ -78,19 +78,14 @@
 ## 📌 Featured Projects
 
 ### 📚 Literaria — Interactive Reading Literacy Platform
-An adaptive, serverless reading platform designed to boost student engagement and comprehension through gamified experiences.
+An adaptive, reading platform designed to boost student engagement and comprehension through interactive media with gamification elements.
 - **Tech Stack:** Flask (Python), Tailwind CSS, Firebase, Google Cloud, Hosted on Render.
-- **Features:** Interactive learning tracks, real-time user progress tracking, and a dedicated instructor monitoring dashboard.
+- **Features:** Interactive reading passages, real-time user progress tracking, and teacher monitoring dashboard.
 
-### 🗳 Blockchain-Inspired Voting Kiosk System
-A secure, streamlined localized voting platform built to simulate transparent cryptographic validation.
-- **Tech Stack:** Flask Backend, HTML5/Tailwind UI, Firebase.
-- **Features:** Web-based kiosk interface, secure multi-user role management, and real-time tallying updates.
-
-### 🐾 Pet Adoption Mobile App
-A real-time mobile application connecting shelters with prospective pet owners seamlessly.
-- **Tech Stack:** Android (Java/XML), Firebase Realtime Database.
-- **Features:** Application status tracking, shelter-side approval dashboard, and instant live notifications.
+### 🧠 NeuroDex - A Web Platform for Brain Tumor Detection and Classification
+A website for Detecting Brain Tumors from MRI images and classify them into 4 classifications (no tumor, glioma, meningioma, and pituitary tumor) using Convolutional Neural Network.
+- **Tech Stack:** TensorFlow/Keras/Grad-Cam, Flask (Python), MySQL.
+- **Features:** Patient Management, Upload MRI Images and Analysis, Heatmap Visualization, Report Generation.
 
 ---
 
@@ -124,11 +119,6 @@ A real-time mobile application connecting shelters with prospective pet owners s
 
 ### Activity Graph
 [![Angeline's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=angelineostan&theme=tokyo-night)](https://github.com/YOURUSERNAME)
-
-### Contribution Snake
-<p align="center">
-  <img src="https://raw.githubusercontent.com/angelineostan/angelineostan/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
-</p>
 
 ---
 
