@@ -1,94 +1,111 @@
-# Hi there, I'm Angeline 👋
+<!-- Banner / Typing Intro -->
+<h1 align="center">Hi 👋, I'm Angeline</h1>
+<h3 align="center">IT Student | Frontend Designer | Full-Stack Developer</h3>
 
-### 💻 IT Student | Developer | Problem Solver
-
-I’m a passionate developer who enjoys building technology solutions that solve real-world problems. My interests focus on **web development, mobile app development, cybersecurity, IoT systems, and software innovation**.
-
-I love creating projects that combine **technology and practical impact**, especially in areas like **education, agriculture, community systems, and digital transformation**.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&center=true&vCenter=true&width=500&height=40&lines=UI%2FUX+%26+Frontend+Design;Mobile+App+Developer;Backend+%26+API+Development;Problem+Solver;Always+Learning+New+Tech" alt="Typing SVG" />
+</p>
 
 ---
+
+<!-- About Me Section with Side GIF -->
+<img align="right" alt="Coding" width="280" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
 
 ## 🚀 About Me
 
-- 🎓 IT Student with a passion for software development
-- 📱 Building **mobile applications** using Android (Java/XML)
-- 🌐 Developing **web applications** using modern frontend & backend technologies
-- 🔥 Experienced with **Firebase Realtime Database** integration
-- 🐍 Backend development using **Python & Flask**
-- 🔐 Interested in **Cybersecurity & Penetration Testing**
-- ⛓ Exploring **Blockchain-based systems**
-- 🌱 Passionate about solving real-world problems through technology
+- 🎓 **IT Student** passionate about bridging the gap between beautiful UI/UX and clean client-side code.
+- 📱 **Mobile Developer** focused on building fast, real-time interactive experiences.
+- 🌐 **Web Developer** crafting responsive, modern frontends backed by efficient serverless architectures.
+- 🐍 **Backend Development** using Python, Flask, and Firebase.
+- 🔐 **Tech Enthusiast** interested in Cybersecurity awareness, secure application development, and web systems.
+- 🌱 **Mission:** Building accessible, gamified, and high-impact digital tools to solve real-world problems.
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Tech Stack & Tools
 
-### Languages
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+### 💻 Languages & Frameworks
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,js,tailwind,bootstrap,python,flask,java,c" />
+  </a>
+</p>
 
-### Frameworks & Tools
-![Firebase](https://img.shields.io/badge/Firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
-### Areas of Interest
-- Mobile Development
-- Web Development
-- Cybersecurity
-- Blockchain
-- Software Engineering
-- UI/UX Design
-- IoT Systems
+### ⚙️ Databases, Cloud & Design Tools
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=firebase,gcp,figma,vscode,git,github,docker" />
+  </a>
+</p>
 
 ---
 
 ## 📌 Featured Projects
 
-### 🐾 Pet Adoption App
-Android mobile application for pet adoption with:
-- Firebase integration
-- Adoption request management
-- Shelter-side approval system
-- Notifications & real-time updates
+### 📚 Literaria — Interactive Reading Literacy Platform
+An adaptive, serverless reading platform designed to boost student engagement and comprehension through gamified experiences.
+- **Tech Stack:** Flask (Python), Tailwind CSS, Firebase, Google Cloud, Hosted on Render.
+- **Features:** Interactive learning tracks, real-time user progress, and a dedicated instructor monitoring dashboard.
 
-### 📚 Interactive Reading Literacy Platform
-A web-based adaptive reading system designed to improve:
-- Student engagement
-- Reading comprehension
-- Interactive learning experiences
-- Teacher monitoring tools
+### 🗳 Blockchain-Inspired Voting Kiosk System
+A secure, streamlined localized voting platform built to simulate transparent cryptographic validation.
+- **Tech Stack:** Flask Backend, HTML5/Tailwind UI, Firebase.
+- **Features:** Web-based kiosk interface, secure multi-user role management, and real-time tallying.
 
-### 🗳 Blockchain Voting Kiosk System
-Secure voting platform featuring:
-- Web-based kiosk interface
-- Blockchain integration concepts
-- Flask backend
-- Firebase database support
+### 🐾 Pet Adoption Mobile App
+A real-time mobile application connecting shelters with prospective pet owners.
+- **Tech Stack:** Android (Java/XML), Firebase Realtime Database.
+- **Features:** Application status tracking, shelter-side approval system, and instant live notifications.
 
 ---
 
-## 📈 What I'm Currently Learning
+## 📊 GitHub Analytics
 
-- Advanced Backend Development
-- Secure Application Development
-- Cloud-based Systems
-- Blockchain Implementation
-- Software Architecture
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOURUSERNAME&show_icons=true&theme=tokyonight&ranking_badge=true" alt="Angeline's GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOURUSERNAME&layout=compact&theme=tokyonight" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=YOURUSERNAME&theme=tokyonight" alt="GitHub Streak" />
+</p>
+
+### 🏆 GitHub Trophies
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=YOURUSERNAME&theme=onedark&row=1&column=6" alt="Trophies" />
+</p>
 
 ---
 
-## 🤝 Let's Connect
+## 📈 Contribution Activity
 
-- 📧 Email: your-email@example.com
-- 💼 LinkedIn: your-linkedin-link
-- 🌐 Portfolio: your-portfolio-link
+### Activity Graph
+[![Angeline's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=YOURUSERNAME&theme=tokyo-night)](https://github.com/YOURUSERNAME)
+
+### Contribution Snake
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YOURUSERNAME/YOURUSERNAME/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
+</p>
 
 ---
 
-> *"Building technology that solves real-world problems."*
+## 🤝 Connect With Me
+
+<p align="left">
+  <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:your.email@example.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=YOURUSERNAME&label=Profile%20Views&color=00F7FF&style=for-the-badge" alt="Profile Views" />
+</p>
+
+---
+
+<p align="center">
+  <i>"Building technology that balances intuitive design with secure, practical execution."</i>
+</p>
