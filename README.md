@@ -13,8 +13,6 @@
 - 🌐 **Web Developer** crafting responsive, modern frontends backed by efficient serverless architectures.
 - 📱 **Mobile Developer** focused on building fast, real-time interactive experiences.
 - 🐍 **Backend Development** using Python, Flask, and Firebase.
-- 🔐 **Tech Enthusiast** interested in Cybersecurity awareness, secure application development, and web systems.
-- 🌱 **Mission:** Building accessible, gamified, and high-impact digital tools to solve real-world problems.
 
 ---
 
