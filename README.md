@@ -120,15 +120,6 @@ A website for Detecting Brain Tumors from MRI images and classify them into 4 cl
 
 ---
 
-## 📚 Currently Learning
-
-- Advanced System Architectures
-- Mobile Application Development Frameworks
-- Cryptographic Systems & Blockchain Applications
-- Secure Software Engineering & Penetration Testing
-
----
-
 ## 🤝 Connect With Me
 
 <p align="center">
