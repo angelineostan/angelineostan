@@ -15,18 +15,16 @@
 </p>
 
 
-
-
 <p align="center">
   I am an <b>Information Technology student</b> and developer dedicated to bridging the gap between intuitive <b>UI/UX design</b> and powerful, client-side engineering. As a versatile <b>Web and Mobile Developer</b>, I specialize in crafting responsive modern frontends and building fast, real-time interactive mobile applications. My technical expertise spans across robust backend environments using <b>Python and Flask</b>, seamless serverless integrations with <b>Firebase</b>, and data-driven systems. Driven by purposeful software engineering, I focus on transforming complex technical workflows into scalable, high-impact digital tools that solve real-world problems.
 </p>
 
 
 
-<h3 align="center">🛠 Tech Stack</h3>
+## 🛠 Tech Stack
 
-<h3 align="center">💻 Languages & Core Web</h3>
-<p align="center">
+<h4>💻 Languages & Core Web</h4>
+<p>
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
@@ -36,15 +34,15 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
 </p>
 
-<h3 align="center">🚀 Frameworks & Styling</h3>
-<p align="center">
+<h4>🚀 Frameworks & Styling</h4>
+<p>
   <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
   <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="TailwindCSS" />
   <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
 </p>
 
-<h3 align="center">📊 Data Science & Machine Learning</h3>
-<p align="center">
+<h4>📊 Data Science & Machine Learning</h4>
+<p>
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
   <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras" />
@@ -56,8 +54,8 @@
   <img src="https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white" alt="Anaconda" />
 </p>
 
-<h3 align="center">☁️ Cloud, Databases & Platforms</h3>
-<p align="center">
+<h4>☁️ Cloud, Databases & Platforms</h4>
+<p>
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
   <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Google Cloud" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
@@ -66,8 +64,8 @@
   <img src="https://img.shields.io/badge/Netlify-00C8B5?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify" />
 </p>
 
-<h3 align="center">🛠️ Developer Tools & Design</h3>
-<p align="center">
+<h4>🛠️ Developer Tools & Design</h4>
+<p>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
@@ -77,8 +75,6 @@
   <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion" />
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
 </p>
-
----
 
 ## 📌 Featured Projects
 
@@ -91,8 +87,6 @@ An adaptive, reading platform designed to boost student engagement and comprehen
 A website for Detecting Brain Tumors from MRI images and classify them into 4 classifications (no tumor, glioma, meningioma, and pituitary tumor) using Convolutional Neural Network.
 - **Tech Stack:** TensorFlow/Keras/Grad-Cam, Flask (Python), MySQL.
 - **Features:** Patient Management, Upload MRI Images and Analysis, Heatmap Visualization, Report Generation.
-
----
 
 ## 📊 GitHub Stats
 
@@ -112,11 +106,6 @@ A website for Detecting Brain Tumors from MRI images and classify them into 4 cl
     </td>
   </tr>
 </table>
-
-### 🏆 GitHub Trophies
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=angelineostan&theme=onedark&row=1&column=6" alt="Trophies" />
-</p>
 
 <p align="center">
   <i>"Building technology that balances intuitive design with secure, practical execution."</i>
