@@ -7,8 +7,6 @@
 
 ---
 
-<img align="right" alt="Coding" width="280" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
-
 ## 🚀 About Me
 
 - 🎓 **IT Student** passionate about bridging the gap between beautiful UI/UX and clean client-side code.
@@ -101,23 +99,23 @@ A real-time mobile application connecting shelters with prospective pet owners s
 <table border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse: collapse; border: none; width: 100%;">
   <tr>
     <td valign="top" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=YOURUSERNAME&show_icons=true&theme=tokyonight&count_private=true" width="100%" alt="GitHub Stats" />
+      <img src="https://github-readme-stats.vercel.app/api?username=angelineostan&show_icons=true&theme=tokyonight&count_private=true" width="100%" alt="GitHub Stats" />
     </td>
     <td valign="top" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOURUSERNAME&layout=compact&theme=tokyonight" width="100%" alt="Top Languages" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=angelineostan&layout=compact&theme=tokyonight" width="100%" alt="Top Languages" />
     </td>
   </tr>
   <tr>
     <td valign="top" colspan="2" width="100%">
       <br/>
-      <img src="https://streak-stats.demolab.com/?user=YOURUSERNAME&theme=tokyonight" width="100%" alt="GitHub Streak" />
+      <img src="https://streak-stats.demolab.com/?user=angelineostan&theme=tokyonight" width="100%" alt="GitHub Streak" />
     </td>
   </tr>
 </table>
 
 ### 🏆 GitHub Trophies
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=YOURUSERNAME&theme=onedark&row=1&column=6" alt="Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=angelineostan&theme=onedark&row=1&column=6" alt="Trophies" />
 </p>
 
 ---
@@ -125,11 +123,11 @@ A real-time mobile application connecting shelters with prospective pet owners s
 ## 📈 Contribution Activity
 
 ### Activity Graph
-[![Angeline's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=YOURUSERNAME&theme=tokyo-night)](https://github.com/YOURUSERNAME)
+[![Angeline's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=angelineostan&theme=tokyo-night)](https://github.com/YOURUSERNAME)
 
 ### Contribution Snake
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YOURUSERNAME/YOURUSERNAME/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
+  <img src="https://raw.githubusercontent.com/YOURUSERNAME/angelineostan/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
 </p>
 
 ---
@@ -149,10 +147,10 @@ A real-time mobile application connecting shelters with prospective pet owners s
   <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:your.email@example.com">
+  <a href="mailto:angelineostan@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=YOURUSERNAME&label=Profile%20Views&color=00F7FF&style=for-the-badge" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=angelineostan&label=Profile%20Views&color=00F7FF&style=for-the-badge" alt="Profile Views" />
 </p>
 
 ---
