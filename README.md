@@ -17,7 +17,7 @@
 
 
 <p align="center">
-  <b>Web Developer</b> combining intuitive <b>UI/UX principles</b> with modern frontend engineering and scalable web services. Experienced in building responsive, data-driven web platforms powered by <b>Tailwind CSS, Python, Flask, and Firebase</b>—turning complex workflows into clean, interactive web experiences.
+  <b>Web Developer</b> combining intuitive <b>UI/UX principles</b> with modern frontend engineering and scalable web services. Experienced in building responsive, data-driven web platforms powered by <b>Tailwind CSS, Python, Flask, and Firebase</b>. Turning complex workflows into clean, interactive web experiences.
 </p>
 
 
