@@ -2,7 +2,7 @@
 
 <h1 align="center">Hi 👋, I'm Angeline</h1>
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=FFFFFF&center=true&vCenter=true&width=500&height=40&lines=Web+Developer;Python+Developer;I+Do+UI/UX+Design;Problem+Solver;Always+Learning+New+Tech" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=FFFFFF&center=true&vCenter=true&width=500&height=40&lines=Web+Developer;Python+Developer;I+Do+UI/UX+Design;Always+Learning+New+Tech" alt="Typing SVG" />
 </p>
 
 
@@ -17,7 +17,7 @@
 
 
 <p align="center">
-  I am an <b>Information Technology student</b> and developer dedicated to bridging the gap between intuitive <b>UI/UX design</b> and powerful, client-side engineering. As a versatile <b>Web and Mobile Developer</b>, I specialize in crafting responsive modern frontends and building fast, real-time interactive mobile applications. My technical expertise spans across robust backend environments using <b>Python and Flask</b>, seamless serverless integrations with <b>Firebase</b>, and data-driven systems. Driven by purposeful software engineering, I focus on transforming complex technical workflows into scalable, high-impact digital tools that solve real-world problems.
+  <b>Web Developer</b> combining intuitive <b>UI/UX principles</b> with modern frontend engineering and scalable web services. Experienced in building responsive, data-driven web platforms powered by <b>Tailwind CSS, Python, Flask, and Firebase</b>—turning complex workflows into clean, interactive web experiences.
 </p>
 
 
