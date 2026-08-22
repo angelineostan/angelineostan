@@ -23,7 +23,7 @@
 
 
 <h2>🛠️ Tech Stack & Workflow</h3>
-<p>
+<p align="center">
   <img src="https://skillicons.dev/icons?i=java,python,php,js,html,css,flask,tailwind,bootstrap,tensorflow,pytorch,sklearn,anaconda,firebase,gcp,mysql,vercel,netlify,git,github,docker,figma,notion,vscode&perline=13" alt="My Tech Stack" />
 </p>
 
